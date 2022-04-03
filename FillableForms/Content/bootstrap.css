@@ -2640,7 +2640,8 @@ input[type="range"] {
 }
 select[multiple],
 select[size] {
-  height: auto;
+  height: 143px;
+    width: 374px;
 }
 input[type="file"]:focus,
 input[type="radio"]:focus,
