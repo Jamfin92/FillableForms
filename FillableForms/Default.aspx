@@ -36,12 +36,11 @@
 
         <!--Radio-->
         <div class="col-md-10 field-set fillable-font">
-            <asp:Label ID="Label4" runat="server" Text="Radio Buttons (Yes/No)"></asp:Label><br />
-            <asp:RadioButton ID="RadioYes" runat="server" GroupName="Radio" />
-            <asp:Label ID="Label5" AssociatedControlID="RadioYes" runat="server" Text="Yes"></asp:Label><br />
-            <asp:RadioButton ID="RadioNo" runat="server" GroupName="Radio" />
-            <asp:Label ID="Label6" AssociatedControlID="RadioNo" runat="server" Text="No" ></asp:Label>
-            <br />
+            <asp:Label ID="Label4" AssociatedControlID="RadioList" runat="server" Text="Radio Buttons (Yes/No)"></asp:Label><br />
+            <asp:RadioButtonList ID="RadioList" runat="server" OnSelectedIndexChanged="RadioButtonList1_SelectedIndexChanged">
+                <asp:ListItem>Yes</asp:ListItem>
+                <asp:ListItem>No</asp:ListItem>
+            </asp:RadioButtonList>
             <asp:Button ID="SubmitRadio" runat="server" Text="Submit" CssClass="text-right btn btn-primary"/>
             <br />
         </div>
