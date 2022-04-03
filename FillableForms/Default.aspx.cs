@@ -13,6 +13,7 @@ namespace FillableForms
         {
 
         }
+<<<<<<< HEAD
 
         protected void Submit_Click(object sender, EventArgs e)
         {
