@@ -33,6 +33,7 @@ namespace FillableForms
         protected global::System.Web.UI.WebControls.DropDownList Dropdown;
 
         /// <summary>
+<<<<<<< HEAD
         /// Submit control.
         /// </summary>
         /// <remarks>
@@ -51,6 +52,8 @@ namespace FillableForms
         protected global::System.Web.UI.WebControls.RequiredFieldValidator rfvName;
 
         /// <summary>
+=======
+>>>>>>> 67303c7ce80802a2ba48e504122d875c664b5441
         /// Label3 control.
         /// </summary>
         /// <remarks>
@@ -69,6 +72,7 @@ namespace FillableForms
         protected global::System.Web.UI.WebControls.TextBox SearchText;
 
         /// <summary>
+<<<<<<< HEAD
         /// Button2 control.
         /// </summary>
         /// <remarks>
@@ -78,6 +82,8 @@ namespace FillableForms
         protected global::System.Web.UI.WebControls.Button Button2;
 
         /// <summary>
+=======
+>>>>>>> 67303c7ce80802a2ba48e504122d875c664b5441
         /// Label2 control.
         /// </summary>
         /// <remarks>
@@ -87,6 +93,7 @@ namespace FillableForms
         protected global::System.Web.UI.WebControls.Label Label2;
 
         /// <summary>
+<<<<<<< HEAD
         /// Multiselect control.
         /// </summary>
         /// <remarks>
@@ -105,6 +112,8 @@ namespace FillableForms
         protected global::System.Web.UI.WebControls.Button SubmitMulti;
 
         /// <summary>
+=======
+>>>>>>> 67303c7ce80802a2ba48e504122d875c664b5441
         /// Label4 control.
         /// </summary>
         /// <remarks>
@@ -148,6 +157,7 @@ namespace FillableForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label Label6;
+<<<<<<< HEAD
 
         /// <summary>
         /// SubmitRadio control.
@@ -157,5 +167,7 @@ namespace FillableForms
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button SubmitRadio;
+=======
+>>>>>>> 67303c7ce80802a2ba48e504122d875c664b5441
     }
 }
