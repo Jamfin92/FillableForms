@@ -1,5 +1,6 @@
 ﻿* {
-    box-sizing:border-box;
+
+>>>>>>> 67303c7ce80802a2ba48e504122d875c664b5441
 }
 
 html {
@@ -30,10 +31,13 @@ html {
 
 .fillable-font {
     font-size: 20px;
+<<<<<<< HEAD
 }
 
 .submitselected {
     text-align:center;
     
 
+=======
+>>>>>>> 67303c7ce80802a2ba48e504122d875c664b5441
 }
